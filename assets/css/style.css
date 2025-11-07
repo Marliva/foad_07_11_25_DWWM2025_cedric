@@ -168,27 +168,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     width: 100vw;
     height: 20vh;
@@ -212,4 +191,73 @@ footer{
 
 #infos span {
     font-weight: bold;
+}
+
+@media screen and (min-width:576px) {
+
+    #reservation{
+        flex-direction: row;
+        width: 80vw;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 5rem;
+    }
+
+    #reservation select{
+        margin-top: unset;
+        margin-left: .3rem;
+    }
+
+    #reservation #valider{
+        padding: .7rem;
+        border-radius: unset;
+    }
+
+    #container {
+        width: 60vw;
+        margin: auto;
+    }
+
+    #filtres{
+        width: 60vw;
+    }
+    
+    .card div {
+        display: flex;
+        flex-direction: column;
+        h2{
+            display: unset;
+        }
+        p{
+            display: unset;
+            line-height: 2rem;
+        }
+        button{
+            width: 30%;
+        }
+    }
+
+    .card div:first-child {
+        flex-direction: row;
+        width: 45%;
+    }
+
+    footer{
+        height: 50vh;
+    }
+
+    #agence{
+        width: 20%;
+    }
+
+    #agence img{
+        width: 180px;
+        margin-left: 5rem;
+    }
+
+    #infos{
+        width: 15%;
+    }
+
 }
