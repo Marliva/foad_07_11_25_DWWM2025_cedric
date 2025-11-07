@@ -1,4 +1,4 @@
-const catalogue = [
+export const catalogue = [
     {
         modele : "Peugeot 208",
         carburant : "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),",
@@ -15,7 +15,7 @@ const catalogue = [
         modele : "Audi A1",
         carburant : "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),",
         prix : 1100,
-        cover : "vehicule3.jpg",
+        cover : "vehicule3.webp",
     },
     {
         modele : "Opel Mokka",
@@ -37,4 +37,3 @@ const catalogue = [
     },
 ];
 
-export { catalogue }
