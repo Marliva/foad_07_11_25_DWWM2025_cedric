@@ -1,0 +1,163 @@
+#hero{
+    position: relative;
+}
+
+#navbar{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+#burger{
+    width: 2.5rem;
+    display: flex;
+    border: 1px solid white;
+    border-radius: .3rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: grey;
+}
+
+#menu{
+    width: 100%;
+    position: absolute;
+    top: 3.8rem;
+    right: 0;
+    background-color: white;
+    line-height: 3rem;
+    li{
+       padding-left: 1rem; 
+    }
+    li:hover{
+        background-color: lightgray;
+        cursor: pointer;
+    }
+}
+
+#heroImg{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#title h1{
+    font-size: 3.5rem;
+}
+
+#reservation{
+    width: 90vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 8rem;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#reservation select{
+    width: 98%;
+    padding: .3rem;
+    border-radius: .3rem;
+    background-color: rgb(236, 236, 236);
+    margin-top: .5rem;
+}
+
+#reservation .dateContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+}
+
+#reservation .dateContainer .dateTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+    p{
+        padding-left: .5rem;
+    }
+    
+}
+
+#reservation .dateContainer .calendar{
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: .3rem;
+    padding: .2rem;
+    background-color: rgb(228, 228, 228);
+}
+
+#reservation #valider{
+    background-color: rgba(0, 167, 42, 0.589);
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#agence {
+    width: 30%;
+}
+
+#agence img {
+    width: 120px;
+}
+
+#infos {
+    width: 55%;
+    line-height: 1.2rem;
+}
+
+#infos span {
+    font-weight: bold;
+}
